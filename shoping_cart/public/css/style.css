@@ -1,0 +1,164 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #382E2D; /* Merah Marun yang gelap */
+    border-bottom: 1px solid #291F1E; /* Warna yang lebih gelap untuk efek kontras */
+    position:fixed; /* Mengatur navbar agar melekat pada bagian atas */
+    left: 0;
+    right: 0; /* Navbar mengisi lebar halaman */
+    z-index: 1000;
+    top:0 ;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #E0B084; /* Krem yang lebih gelap */
+    margin-right: auto; /* Menggeser brand ke ujung kiri */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #E0B084; /* Krem yang lebih gelap */
+}
+
+.nav-link .fas {
+    font-size: 1.5rem;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    z-index: 1000; /* Pastikan navbar di atas elemen lain */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Menggeser menu ke ujung kanan */
+}
+
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FDF6E3; /* Krem yang lembut */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Menambahkan jarak antara card dan navbar */
+    transition: margin-top 0.3s; /* Transisi smooth untuk margin-top */
+    height: 100%;
+}
+
+.card:hover {
+    margin-top: -10px; /* Efek transisi saat card didekati ke navbar */
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px; /* Adjusted height to better fit the content */
+    object-fit: cover;
+    height: 200px; /* Tinggi gambar kartu */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #382E2D; /* Warna gelap yang cocok untuk efek vintage */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #4F5858; /* Warna yang lebih netral untuk teks */
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    padding: 15px;
+}
+
+/* Halaman Styling */
+body {
+    background-color: #FCF8F3; /* Krem yang lebih terang */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin-top: 0; /* Padding di bagian atas untuk menghindari tumpang tindih dengan navbar */
+}
+
+.card-container {
+    padding-top: 70px; /* Memberi padding atas pada card container untuk mencegah tumpang tindih dengan navbar */
+}
+
+.btn-primary {
+    background-color: #76323F; /* Merah Marun */
+    border-color: #4D262E; /* Warna yang sedikit lebih gelap untuk efek kontras */
+}
+
+.btn-primary:hover {
+    background-color: #5E212D; /* Merah Marun yang agak lebih gelap */
+    border-color: #3F1A21; /* Warna yang sedikit lebih gelap untuk efek kontras */
+}
+
+
+/* Contoh styling sederhana */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-item {
+    width: calc(50% - 20px);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-item h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.news-item p {
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.news-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news-detail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-detail h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.news-detail p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
